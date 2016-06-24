@@ -26,7 +26,6 @@ class Api::BudgetsController < ApplicationController
     end
   end
 
-
   def destroy
     @budget.destroy
     render json: true
